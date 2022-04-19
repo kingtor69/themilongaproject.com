@@ -1,0 +1,10 @@
+
+body {
+  background-color: tan;
+  /* match to image background */
+};
+
+img.img-header {
+  color: black;
+  font-size: 2rem;
+};
