@@ -1,28 +1,27 @@
-.Home {
-	/* background-image: url("./images/4A\ FIN.jpg");
-	background-size: 100vw; */
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
-	bacground-color: ;
+.Home-img-h1 {
+	position: absolute;
+	left: auto;
+	top: 0px;
+	transform: translate(-50%,0);
+	opacity: 1;
+	z-index: 10;
 }
 
-.Home-bg {
+.Home h1, h2, h3, h4, h5 {
+	font-size: 3rem;
+}
+.Home-img-bg {
 	opacity: 0.6;
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100vw;
 	height: auto;
-}
-
-.Home-bg img {
-	width: 100vw;
-	height: auto;
+	z-index: 0;
 }
 
 .Home div.Home-text {
 	position: relative;
-	z-index: 0;
+	top: 150px;
+	z-index: 20;
 }
