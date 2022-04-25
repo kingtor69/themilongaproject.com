@@ -1,4 +1,12 @@
-.NavBar-img-brand {
-  width: 50%;
-  height: 50%;
+.NavBar {
+  position: absolute;
+  top: 0px;
+}
+
+.NavBar-Brand-img {
+  height: 40px;
+}
+
+.NavBar-Link {
+  padding: 4px 12px;
 }
