@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './Navbar';
+import NavBar from './NavBar';
 import imageRefs from './imageRefs';
 
 import './Home.css';    
@@ -10,7 +10,7 @@ function Home() {
       <NavBar />
       <div className="Home-bg">
         <img src={imageRefs.title010Grad10} alt="Milonga" className="Home-img-h1" />
-        <img src={imageRefs.camp} alt="" ario-hidden="true" className="Home-img-bg" />
+        <img src={imageRefs.camp} alt="" aria-hidden="true" className="Home-img-bg" />
       </div>
       <div className="Home-text">
         <h2>An Illustrated Audio Play</h2>

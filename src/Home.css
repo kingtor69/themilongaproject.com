@@ -1,3 +1,7 @@
+.Home {
+	background-color: #eee
+}
+
 .Home-img-h1 {
 	position: absolute;
 	left: auto;
@@ -10,7 +14,7 @@
 .Home h1, h2, h3, h4, h5 {
 	display: inline-block;
 	font-size: 3rem;
-	background-color: #fff8;
+	background-color: #70421499;
 	border-radius: 3rem;
 	padding: 5px 20px;
 }
