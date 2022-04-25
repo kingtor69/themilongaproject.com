@@ -1,11 +1,13 @@
 import React from 'react';
 import imageRefs from './imageRefs';
+import NavBar from './NavBar';
 
 import './Home.css';    
 
 function Home() {
   return (
     <div className="Home">
+      <NavBar />
       <div className="Home-bg">
         <img src={imageRefs.title010Grad10} alt="Milonga" className="Home-img-h1" />
         <img src={imageRefs.camp} alt="" ario-hidden="true" className="Home-img-bg" />
