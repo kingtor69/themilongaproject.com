@@ -1,0 +1,26 @@
+.About {
+  display: block;
+  position: relative;
+  padding: 100px;
+  /* why is that padding needed? */
+  background-color: #0000;
+};
+
+.About-header {
+	display: block;
+  top: 500px;
+	font-size: 2rem;
+	color: black;
+	background-color: #e5e7e1;
+	left: auto;
+  width: 100vw;
+  /* where is this getting the border radius? */
+}
+
+.About-p {
+  font-size: 1.5rem;
+  color: black;
+  background-color: #e5e7e1aa;
+  text-align: left;
+}
+

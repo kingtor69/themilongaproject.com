@@ -1,5 +1,5 @@
 .Home {
-	background-color: #eee
+	background-color: #0000
 }
 
 .Home-img-h1 {
@@ -11,10 +11,12 @@
 	border-radius: 1em;
 }
 
-.Home h1, h2, h3, h4, h5 {
+.Home-header {
 	display: inline-block;
 	font-size: 3rem;
-	background-color: #70421499;
+	color: black;
+	background-color: #e5e7e1aa;
+	left: auto;
 	border-radius: 3rem;
 	padding: 5px 20px;
 }
@@ -26,11 +28,12 @@
 	top: 0;
 	width: 100vw;
 	height: auto;
-	z-index: 0;
+	z-index: -10;
 }
 
 .Home div.Home-text {
 	position: relative;
-	top: -8rem;	
+	top: 10rem;	
+	text-align: center;
 	z-index: 20;
 }
