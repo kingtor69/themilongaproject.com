@@ -1,10 +1,14 @@
 
 body {
-  background-color: tan;
-  /* match to image background */
+  background-color: #e5e7e1;
+  /* pretty close match for image background */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1.5em;
 };
 
 img.img-header {
   color: black;
-  font-size: 2rem;
+  font-size: 4rem;
+  border: 4px purple solid;
 };
