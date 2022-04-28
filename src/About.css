@@ -6,18 +6,19 @@
   background-color: #0000;
 };
 
-#About-header {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
-	display: block;
-  top: 500px;
-	font-size: 2rem;
-	color: black;
-	background-color: #e5e7e1;
-	left: auto;
-  width: 100vw;
-}
+.section-header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+	  display: block;
+	top: 500px;
+	  font-size: 2rem;
+	  color: black;
+	  background-color: #e5e7e1;
+	  left: auto;
+	width: 100vw;
+  }
+  
 
 .About-p {
   font-size: 1.5rem;
