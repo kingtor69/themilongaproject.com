@@ -6,7 +6,7 @@ import About from './About';
 const Front = () => {
   return (
     <div className="Front">
-      {/* <NavBar /> */}
+      <NavBar />
       <Home />
       <About />
     </div>

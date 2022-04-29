@@ -6,16 +6,17 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <Navbar className="NavBar" bg="light" expand="lg">
-      <Navbar.Brand href="/"><img src={imageRefs.title010Grad10} alt="Milonga" className="NavBar-Brand-img" /></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="Navbar-basic-nav">
-        <Nav className="Navbar-links">
-          <Nav.Link className="NavBar-Link" href="#Home-top">Top</Nav.Link>
-          <Nav.Link className="NavBar-Link" href="#About">The Process</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <h2>there will be a navbar here</h2>
+//     <Navbar className="NavBar" bg="light" expand="lg">
+//       <Navbar.Brand href="/"><img src={imageRefs.title010Grad10} alt="Milonga" className="NavBar-Brand-img" /></Navbar.Brand>
+//       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//       <Navbar.Collapse id="Navbar-basic-nav">
+//         <Nav className="Navbar-links">
+//           <Nav.Link className="NavBar-Link" href="#Home-top">Top</Nav.Link>
+//           <Nav.Link className="NavBar-Link" href="#About">The Process</Nav.Link>
+//         </Nav>
+//       </Navbar.Collapse>
+//     </Navbar>
   )
 }
 
