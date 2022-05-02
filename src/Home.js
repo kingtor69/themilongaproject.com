@@ -13,6 +13,7 @@ function Home() {
       </div>
       <div className="Home-text">
         <h2 className="Home-header">An Illustrated Audio Play</h2>
+        <p id="Home-one-liner"><i>A homeless woman with a guilty past heals herself through tango</i></p>
       </div>
     </div>
   );
