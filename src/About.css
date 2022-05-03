@@ -6,30 +6,6 @@
   background-color: #0000;
 };
 
-#About-header {
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
-	display: block;
-  top: 500px;
-	font-size: 2rem;
-	color: black;
-	background-color: #e5e7e1;
-	left: auto;
-  width: 100vw;
-}
-
-.About-p {
-  font-size: 1.5rem;
-  color: black;
-  background-color: #e5e7e1aa;
-  text-align: left;
-  margin: 0px;
-  padding: 5px 5px 10px 5px;
-  border: #e5e7e1cc 2px solid;
-  border-radius: 5px;
-}
-
 .About-p-list-intro {
   padding-bottom: 0px;
   margin-bottom: 0px;
