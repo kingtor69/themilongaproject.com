@@ -27,7 +27,7 @@ const imageRefs = {
   title010Grad10,
   title020Grad10,
   title100Grad10,
-  behindTheScenes: [
+  behindTheScenesPics: [
     { id: uuid(), image: BradEditing},
     { id: uuid(), image: heyChief},
     { id: uuid(), image: LibbyHelpingHandsGreenscreen},

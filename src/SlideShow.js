@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ImageCard from './ImageCard';
+// import ImageCard from './ImageCard';
 
 const SlideShow = ({images}) => {
     // an idea to randomize the order.... that can happen later
@@ -19,4 +19,4 @@ const SlideShow = ({images}) => {
     );
 };
 
-export default BTS;
+export default SlideShow;
