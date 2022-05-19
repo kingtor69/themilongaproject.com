@@ -1,3 +1,9 @@
+body  {
+	background-image: url('./images/4A FIN.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  }
+
 .Home {
 	background-color: #0000
 }
@@ -21,7 +27,7 @@
 	padding: 7px 20px;
 }
 
-.Home-img-bg {
+/* .Home-img-bg {
 	opacity: 0.6;
 	position: absolute;
 	left: 0;
@@ -30,7 +36,7 @@
 	height: auto;
 	z-index: -10;
 }
-
+ */
 .Home div.Home-text {
 	position: relative;
 	top: 10rem;	
