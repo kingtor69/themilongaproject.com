@@ -1,12 +1,3 @@
-body  {
-	background-image: url('./images/4A FIN.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-  }
-
-.Home {
-	background-color: #0000
-}
 
 .Home-img-h1 {
 	position: absolute;
@@ -25,16 +16,7 @@ body  {
 	left: auto;
 	border-radius: 3rem;
 	padding: 7px 20px;
-}
-
-/* .Home-img-bg {
-	opacity: 0.6;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100vw;
-	height: auto;
-	z-index: -10;
+	margin: 45px 0px 0px 0px;
 }
  */
 .Home div.Home-text {
@@ -46,4 +28,12 @@ body  {
 
 #Home-one-liner {
 	font-size: 1rem;
+	color: black;
+	background-color: #e5e7e1aa;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 20px 40px 20px;
+	padding: 5px 5px 10px 5px;
+	border: #e4e7e1cc 1px solid;
+	border-radius: 5px;
 }
