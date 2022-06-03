@@ -1,24 +1,18 @@
 
 .Home-img-h1 {
-	position: absolute;
-	left: auto;
-	top: 0px;
-	transform: translate(-50%,0);
 	z-index: 10;
 	border-radius: 1em;
+	max-width: 90vw;
 }
 
-.Home-header {
-	display: inline-block;
-	font-size: 3rem;
+.Home-title-card {
 	color: black;
 	background-color: #e5e7e1aa;
-	left: auto;
 	border-radius: 3rem;
-	padding: 7px 20px;
-	margin: 45px 0px 0px 0px;
+	padding: 1em 0px;
+	margin: 4rem 33vw 0px 33vw;
 }
- */
+
 .Home div.Home-text {
 	position: relative;
 	top: 10rem;	

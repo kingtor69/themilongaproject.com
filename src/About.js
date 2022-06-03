@@ -5,11 +5,9 @@ import './About.css';
 const About = () => {
     
     return (
-        <div className="About">
-            <br />
-            <br />
-            <h2 className="section-header">The Process: </h2>
-            <div className="text-block">
+        <div className="About section">
+            <h2 className="section-header">The Process</h2>
+            <div className="block text">
                 <p className="About-p-list-intro">Milonga began as a film script by Julie Reichert.  She didn’t have the means to get it produced, so how to get it into the world?</p>
                 <ul className="About-unmarked-list">
                     <li>Post the script online?</li>

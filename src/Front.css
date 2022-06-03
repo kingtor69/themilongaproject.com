@@ -12,13 +12,22 @@
     border-radius: 5px;
 }
 
-
-.text-block {
+.section {
+    display: block;
+    position: relative;
+    background-color: #0000;
+    padding-bottom: 4em;
+  }
+  
+.block {
     color: black;
     background-color: #e5e7e1aa;
-    text-align: left;
     margin: 0px;
     padding: 5px 5px 10px 5px;
     border: #e5e7e1cc 2px solid;
     border-radius: 5px;
+}
+
+.text {
+    text-align: left;
 }

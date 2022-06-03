@@ -1,11 +1,3 @@
-.About {
-  display: block;
-  position: relative;
-  padding: 100px;
-  /* why is that padding needed? */
-  background-color: #0000;
-};
-
 .About-p-list-intro {
   padding-bottom: 0px;
   margin-bottom: 0px;

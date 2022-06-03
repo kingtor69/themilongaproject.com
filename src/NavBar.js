@@ -6,7 +6,13 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <h2>there will be a navbar here</h2>
+    <div className="NavBar">
+      <h2>there will be a navbar here</h2>
+      <p>should it include a "music" option?</p>
+      {/* if yes on above, default should be muted and should be a state that is accessed in Credits.js to either play or mute the credits music */}
+      {/* possible future would be to always mute the credits music and have the soundtrack playing on shuffle or some such */}
+    </div>
+
 //     <Navbar className="NavBar" bg="light" expand="lg">
 //       <Navbar.Brand href="/"><img src={imageRefs.title010Grad10} alt="Milonga" className="NavBar-Brand-img" /></Navbar.Brand>
 //       <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -5,7 +5,7 @@ import SlideShow from './SlideShow';
 const BTS = () => {
     const { behindTheScenes } = imageRefs;
     return (
-        <div className="BTS">
+        <div className="BTS section">
             <h2 className="section-header">Behind the Scenes</h2>
             <SlideShow images={behindTheScenes} />
         </div>

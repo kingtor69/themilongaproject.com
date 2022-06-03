@@ -1,21 +1,33 @@
 import React from 'react';
 import About from './About';
 import imageRefs from './imageRefs';
+import {Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle} from 'reactstrap';
 
-import './Home.css';    
+import './Home.css';
 
 function Home() {
   return (
-    <div className="Home">
-      <div className="Home-bg">
-        <img src={imageRefs.title010Grad10} alt="Milonga" className="Home-img-h1" />
-      </div>
-      <div className="Home-text">
-        <h2 className="Home-header">An Illustrated Audio Play</h2>
-        <br />
-        <p id="Home-one-liner"><i>A homeless woman with a guilty past heals herself through tango.</i></p>
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <Card className="Home-title-card">
+            <CardImg
+              className="Home-img-h1"
+              alt="Milonga"
+              src={imageRefs.title010Grad10}
+              />
+            <CardBody>
+              <CardTitle tag="h2" className="h2">
+                An Illustrated Audio Play
+              </CardTitle>
+              <CardSubtitle>
+                <i>A homeless woman with a guilty past heals herself through tango.</i>
+              </CardSubtitle>
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
