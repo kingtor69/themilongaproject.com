@@ -1,13 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import 'react-slideshow-image/dist/styles.css';
+import "react-image-gallery/styles/css/image-gallery.css";
+import imageRefs from './imageRefs';
 
-const SlideShow = ({images}) => {
+const SlideShow = () => {
+    const orderedImages = imageRefs.behindTheScenesPics;
+    // add random order for images?
 
     return (
-        <div className="SlideShow">
-        </div>
-    );
+        <ImageGallery 
+            items={orderedImages} 
+        />
+    )
 };
 
 export default SlideShow;

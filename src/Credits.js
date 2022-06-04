@@ -1,23 +1,16 @@
 
 import React from 'react';
-import ReactPlayer from 'react-player';
+import VideoFrame from './VideoFrame';
 
-
-import './Credits.css';
+import './Home.css';
 
 const Credits = () => {
     return (
         <div className="Credits section">
             <h2 className="section-header">Credits</h2>
-            <div className="Credits-video-frame">
-                <ReactPlayer 
-                    url="https://vimeo.com/716947185"
-                    playing={true}
-                    loop={true}
-                    volume={0.5}
-                    muted={true}
-                />
-            </div>
+            <VideoFrame 
+                url="https://vimeo.com/716947185"
+            />
         </div>
     );
 };

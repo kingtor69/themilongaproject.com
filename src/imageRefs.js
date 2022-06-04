@@ -27,21 +27,21 @@ import CodyJulieBottleCatGreenscreen from './images/BTSoriginals/CodyJulieBottle
 import friendSlateLibbyWaiting from './images/BTSoriginals/friendSlateLibbyWaiting.png';
 import MiguelJulieGreenscreen from './images/BTSoriginals/friendSlateLibbyWaiting.png'
 
-import HearKittyADREmpty from './images/BTSthumbs/HearKittyADREmpty-thumb.png';
-import ErskineBando from './images/BTSthumbs/ErskineBando-thumb.png';
-import TorJulieRecordingQTango from './images/BTSthumbs/TorJulieRecordingQTango-thumb.png';
-import ElDiaSheetMusic from './images/BTSthumbs/ElDiaSheetMusic-thumb.png';
-import tangoSheetMusic from './images/BTSthumbs/tangoSheetMusic-thumb.png';
-import QTangoRecording from './images/BTSthumbs/QTangoRecording-thumb.png';
-import RumiRecording from './images/BTSthumbs/RumiRecording-thumb.png';
-import I25PondTurtles from './images/BTSthumbs/I25PondTurtles-thumb.png';
-import BradEditing from './images/BTSthumbs/BradEditing-thumb.png';
-import heyChief from './images/BTSthumbs/heyChiefGreenscreenWithJulie-thumb.png';
-import LibbyHelpingHandsGreenscreen from './images/BTSthumbs/LibbyHelpingHandsGreenscreen-thumb.png';
+import HearKittyADREmptyThumb from './images/BTSthumbs/HearKittyADREmpty-thumb.png';
+import ErskineBandoThumb from './images/BTSthumbs/ErskineBando-thumb.png';
+import TorJulieRecordingQTangoThumb from './images/BTSthumbs/TorJulieRecordingQTango-thumb.png';
+import ElDiaSheetMusicThumb from './images/BTSthumbs/ElDiaSheetMusic-thumb.png';
+import tangoSheetMusicThumb from './images/BTSthumbs/tangoSheetMusic-thumb.png';
+import QTangoRecordingThumb from './images/BTSthumbs/QTangoRecording-thumb.png';
+import RumiRecordingThumb from './images/BTSthumbs/RumiRecording-thumb.png';
+import I25PondTurtlesThumb from './images/BTSthumbs/I25PondTurtles-thumb.png';
+import BradEditingThumb from './images/BTSthumbs/BradEditing-thumb.png';
+import heyChiefThumb from './images/BTSthumbs/heyChiefGreenscreenWithJulie-thumb.png';
+import LibbyHelpingHandsGreenscreenThumb from './images/BTSthumbs/LibbyHelpingHandsGreenscreen-thumb.png';
 // import JulieSlate105 from './images/BTSthumbs/JulieSlate105-thumb.png';
-import CodyJulieBottleCatGreenscreen from './images/BTSthumbs/CodyJulieBottleCatGreenscreen-thumb.png';
-import friendSlateLibbyWaiting from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png';
-import MiguelJulieGreenscreen from './images/BTSthumbs/friendSlateLibbyWaiting.png'
+import CodyJulieBottleCatGreenscreenThumb from './images/BTSthumbs/CodyJulieBottleCatGreenscreen-thumb.png';
+import friendSlateLibbyWaitingThumb from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png';
+import MiguelJulieGreenscreenThumb from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png'
 
 const imageRefs = {
   camp,
@@ -54,20 +54,20 @@ const imageRefs = {
   title100Grad10,
   hearBettyLogo,
   behindTheScenesPics: [
-    { id: uuid(), original: BradEditing, description: 'Brad at work editing picture.'},
-    { id: uuid(), original: heyChief, description: 'Willis (Fighting Guy) setting up with Julie for his fight with Cody'},
-    { id: uuid(), original: LibbyHelpingHandsGreenscreen, description: 'Pip (Libby) at Helping Hands.'},
-    { id: uuid(), original: CodyJulieBottleCatGreenscreen, description: `Julie handing Wambli (Cody) his bottle of "hooch." (Kitty didn't make the cut.)`},
-    { id: uuid(), original: friendSlateLibbyWaiting, description: 'helping keep the photos organized'},
-    { id: uuid(), original: MiguelJulieGreenscreen, description: 'Julie with Pablo (Miguel)'},
-    { id: uuid(), original: HearKittyADREmpty, description: 'Hear Kitty, where we recorded most of the voices'},
-    { id: uuid(), original: ErskineBando, description: 'Erskine playing bandoneon during our recording session with Q Tango'}, 
-    { id: uuid(), original: TorJulieRecordingQTango, description: 'Tor & Julie during the Q Tango recording session'}, 
-    { id: uuid(), original: ElDiaSheetMusic, description: 'sheet music for a song heard frequently'}, 
-    { id: uuid(), original: tangoSheetMusic, description: 'more sheet music'}, 
-    { id: uuid(), original: QTangoRecording, description: 'The whole Q Tango ensemble'}, 
-    { id: uuid(), original: RumiRecording, description: 'Rumi recording as Laura'}, 
-    { id: uuid(), original: I25PondTurtles, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
+    { id: uuid(), original: BradEditing, thumbnail: BradEditingThumb, description: 'Brad at work editing picture.'},
+    { id: uuid(), original: heyChief, thumbnail: heyChiefThumb, description: 'Willis (Fighting Guy) setting up with Julie for his fight with Cody'},
+    { id: uuid(), original: LibbyHelpingHandsGreenscreen, thumbnail: LibbyHelpingHandsGreenscreenThumb, description: 'Pip (Libby) at Helping Hands.'},
+    { id: uuid(), original: CodyJulieBottleCatGreenscreen, thumbnail: CodyJulieBottleCatGreenscreenThumb, description: `Julie handing Wambli (Cody) his bottle of "hooch." (Roxy Blossom in the background didn't make the cut.)`},
+    { id: uuid(), original: friendSlateLibbyWaiting, thumbnail: friendSlateLibbyWaitingThumb, description: 'Michele helping keep the photos organized'},
+    { id: uuid(), original: MiguelJulieGreenscreen, thumbnail: MiguelJulieGreenscreenThumb, description: 'Julie with Pablo (Miguel)'},
+    { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty, where we recorded most of the voices'},
+    { id: uuid(), original: ErskineBando, thumbnail: ErskineBandoThumb, description: 'Erskine playing bandoneon during our recording session with Q Tango'}, 
+    { id: uuid(), original: TorJulieRecordingQTango, thumbnail: TorJulieRecordingQTangoThumb, description: 'Tor & Julie during the Q Tango recording session'}, 
+    { id: uuid(), original: ElDiaSheetMusic, thumbnail: ElDiaSheetMusicThumb, description: 'sheet music for a song heard frequently'}, 
+    { id: uuid(), original: tangoSheetMusic, thumbnail: tangoSheetMusicThumb, description: 'more sheet music'}, 
+    { id: uuid(), original: QTangoRecording, thumbnail: QTangoRecordingThumb, description: 'The whole Q Tango ensemble'}, 
+    { id: uuid(), original: RumiRecording, thumbnail: RumiRecordingThumb, description: 'Rumi recording as Laura'}, 
+    { id: uuid(), original: I25PondTurtles, thumbnail: I25PondTurtlesThumb, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
   ],
 }
 
