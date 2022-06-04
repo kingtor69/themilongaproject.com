@@ -25,7 +25,7 @@ import LibbyHelpingHandsGreenscreen from './images/BTSoriginals/LibbyHelpingHand
 // import JulieSlate105 from './images/BTSoriginals/JulieSlate105.png';
 import CodyJulieBottleCatGreenscreen from './images/BTSoriginals/CodyJulieBottleCatGreenscreen.png';
 import friendSlateLibbyWaiting from './images/BTSoriginals/friendSlateLibbyWaiting.png';
-import MiguelJulieGreenscreen from './images/BTSoriginals/friendSlateLibbyWaiting.png'
+import MiguelJulieGreenscreen from './images/BTSoriginals/MiguelJulieGreenscreen.png'
 
 import HearKittyADREmptyThumb from './images/BTSthumbs/HearKittyADREmpty-thumb.png';
 import ErskineBandoThumb from './images/BTSthumbs/ErskineBando-thumb.png';
@@ -41,7 +41,7 @@ import LibbyHelpingHandsGreenscreenThumb from './images/BTSthumbs/LibbyHelpingHa
 // import JulieSlate105 from './images/BTSthumbs/JulieSlate105-thumb.png';
 import CodyJulieBottleCatGreenscreenThumb from './images/BTSthumbs/CodyJulieBottleCatGreenscreen-thumb.png';
 import friendSlateLibbyWaitingThumb from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png';
-import MiguelJulieGreenscreenThumb from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png'
+import MiguelJulieGreenscreenThumb from './images/BTSthumbs/MiguelJulieGreenscreen-thumb.png'
 
 const imageRefs = {
   camp,
@@ -54,20 +54,20 @@ const imageRefs = {
   title100Grad10,
   hearBettyLogo,
   behindTheScenesPics: [
-    { id: uuid(), original: BradEditing, thumbnail: BradEditingThumb, description: 'Brad at work editing picture.'},
-    { id: uuid(), original: heyChief, thumbnail: heyChiefThumb, description: 'Willis (Fighting Guy) setting up with Julie for his fight with Cody'},
     { id: uuid(), original: LibbyHelpingHandsGreenscreen, thumbnail: LibbyHelpingHandsGreenscreenThumb, description: 'Pip (Libby) at Helping Hands.'},
-    { id: uuid(), original: CodyJulieBottleCatGreenscreen, thumbnail: CodyJulieBottleCatGreenscreenThumb, description: `Julie handing Wambli (Cody) his bottle of "hooch." (Roxy Blossom in the background didn't make the cut.)`},
     { id: uuid(), original: friendSlateLibbyWaiting, thumbnail: friendSlateLibbyWaitingThumb, description: 'Michele helping keep the photos organized'},
+    { id: uuid(), original: CodyJulieBottleCatGreenscreen, thumbnail: CodyJulieBottleCatGreenscreenThumb, description: `Julie handing Wambli (Cody) his bottle of "hooch." (Roxy Blossom in the background didn't make the cut.)`},
     { id: uuid(), original: MiguelJulieGreenscreen, thumbnail: MiguelJulieGreenscreenThumb, description: 'Julie with Pablo (Miguel)'},
-    { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty, where we recorded most of the voices'},
+    { id: uuid(), original: heyChief, thumbnail: heyChiefThumb, description: 'Willis (Fighting Guy) setting up with Julie for his fight with Cody'},
     { id: uuid(), original: ErskineBando, thumbnail: ErskineBandoThumb, description: 'Erskine playing bandoneon during our recording session with Q Tango'}, 
     { id: uuid(), original: TorJulieRecordingQTango, thumbnail: TorJulieRecordingQTangoThumb, description: 'Tor & Julie during the Q Tango recording session'}, 
     { id: uuid(), original: ElDiaSheetMusic, thumbnail: ElDiaSheetMusicThumb, description: 'sheet music for a song heard frequently'}, 
     { id: uuid(), original: tangoSheetMusic, thumbnail: tangoSheetMusicThumb, description: 'more sheet music'}, 
     { id: uuid(), original: QTangoRecording, thumbnail: QTangoRecordingThumb, description: 'The whole Q Tango ensemble'}, 
+    { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty, where we recorded most of the voices'},
     { id: uuid(), original: RumiRecording, thumbnail: RumiRecordingThumb, description: 'Rumi recording as Laura'}, 
     { id: uuid(), original: I25PondTurtles, thumbnail: I25PondTurtlesThumb, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
+    { id: uuid(), original: BradEditing, thumbnail: BradEditingThumb, description: 'Brad at work editing picture.'},
   ],
 }
 
