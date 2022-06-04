@@ -19,7 +19,7 @@ const BTS = () => {
                         controls={true}
                         volume={0.5}
                         muted={true}
-                        />
+                    />
                     <p><a href="https://vimeo.com/717011980">view (and listen) on Vimeo</a></p>
                 </div>
             </div>

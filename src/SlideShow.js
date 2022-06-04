@@ -10,6 +10,7 @@ const SlideShow = () => {
     return (
         <ImageGallery 
             items={orderedImages} 
+            autoPlay={true}
         />
     )
 };
