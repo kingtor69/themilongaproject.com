@@ -48,7 +48,7 @@ const NavBar = () => {
             <NavLink href="/#BTS">Behind the Scenes</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact">Contact Us</NavLink>
+            <NavLink href="/#Contact">Contact Us</NavLink>
           </NavItem>
         </Nav>
       </Collapse>

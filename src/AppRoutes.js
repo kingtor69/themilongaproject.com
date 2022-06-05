@@ -7,9 +7,9 @@ import ConfirmationPage from './ConfirmationPage';
 function AppRoutes() {
   return (
     <Routes className="AppRoutes">
-      <Route path="/themilongaproject.com" element={<Front />} />
-      <Route path="/themilongaproject.com/contact" element={<ContactPage />} />
-      <Route path="/themilongaproject.com/confirmation" element={<ConfirmationPage />} />
+      <Route path="/" element={<Front />} />
+      {/* <Route path="/contact" element={<ContactPage />} />
+      <Route path="/confirmation" element={<ConfirmationPage />} /> */}
     </Routes>
   );
 };
