@@ -1,4 +1,10 @@
 
+.Front {
+    display: block;
+    position: relative;
+    margin-top: 60px;
+}
+
 .section-header {
     margin: 20px 0px 20px 0px;
     padding: 0px;

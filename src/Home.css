@@ -1,33 +1,12 @@
 
 .Home-img-h1 {
-	z-index: 10;
-	border-radius: 1em;
-	max-width: 90vw;
+	font-size: 5rem;
 }
 
 .Home-title-card {
 	color: black;
 	background-color: #e5e7e1aa;
-	border-radius: 3rem;
-	padding: 1em 0px;
-	margin: 4rem 33vw 0px 33vw;
-}
-
-.Home div.Home-text {
-	position: relative;
-	top: 10rem;	
-	text-align: center;
-	z-index: 20;
-}
-
-#Home-one-liner {
-	font-size: 1rem;
-	color: black;
-	background-color: #e5e7e1aa;
-	text-align: center;
-	display: inline-block;
-	margin: 10px 20px 40px 20px;
-	padding: 5px 5px 10px 5px;
-	border: #e4e7e1cc 1px solid;
-	border-radius: 5px;
+	max-width: 400px;
+	left: 50%;
+	transform: translate(-50%);
 }

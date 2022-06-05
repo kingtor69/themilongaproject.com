@@ -1,17 +1,19 @@
 import React from 'react';
 import SlideShow from './SlideShow';
 import ReactPlayer from 'react-player';
+import {Row, Col} from 'reactstrap';
 
 import './Home.css';
 import './Front.css';
 
 const BTS = () => {
     return (
-        <div className="BTS section">
+        <div className="BTS section" id="BTS">
             <h2 className="section-header">Behind the Scenes</h2>
             <SlideShow />
-            <div className="block">
-                <div className="video-frame">
+            <Row>
+                <Col xs="0" md="1" lg="2"></Col>
+                <Col xs="12" md="10" lg="8">
                     <ReactPlayer 
                         url="https://vimeo.com/717011980"
                         playing={true}
@@ -20,10 +22,9 @@ const BTS = () => {
                         volume={0.5}
                         muted={true}
                     />
-                    <p><a href="https://vimeo.com/717011980">view (and listen) on Vimeo</a></p>
-                </div>
-            </div>
-            
+                </Col>
+                <Col xs="0" md="1" lg="2"></Col>
+            </Row>
         </div>
     );
 };

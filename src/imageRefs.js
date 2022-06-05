@@ -2,6 +2,7 @@ import 'react-native-get-random-values';
 import { v4 as uuid } from 'uuid';
 
 import camp from './images/4A FIN.jpg';
+import brand from './images/Milonga003.png'
 import title010 from './images/Milonga010.png';
 import title025 from './images/Milonga025.png';
 import title050 from './images/Milonga050.png';
@@ -18,7 +19,7 @@ import ElDiaSheetMusic from './images/BTSoriginals/ElDiaSheetMusic.png';
 import tangoSheetMusic from './images/BTSoriginals/tangoSheetMusic.png';
 import QTangoRecording from './images/BTSoriginals/QTangoRecording.png';
 import RumiRecording from './images/BTSoriginals/RumiRecording.png';
-import I25PondTurtles from './images/BTSoriginals/I25PondTurtles.png';
+import I25TurtleStaredown from './images/BTSoriginals/I25TurtleStaredown.png';
 import BradEditing from './images/BTSoriginals/BradEditing.png';
 import heyChief from './images/BTSoriginals/heyChiefGreenscreenWithJulie.png';
 import LibbyHelpingHandsGreenscreen from './images/BTSoriginals/LibbyHelpingHandsGreenscreen.png';
@@ -34,7 +35,7 @@ import ElDiaSheetMusicThumb from './images/BTSthumbs/ElDiaSheetMusic-thumb.png';
 import tangoSheetMusicThumb from './images/BTSthumbs/tangoSheetMusic-thumb.png';
 import QTangoRecordingThumb from './images/BTSthumbs/QTangoRecording-thumb.png';
 import RumiRecordingThumb from './images/BTSthumbs/RumiRecording-thumb.png';
-import I25PondTurtlesThumb from './images/BTSthumbs/I25PondTurtles-thumb.png';
+import I25TurtleStaredownThumb from './images/BTSthumbs/I25TurtleStaredown-thumb.png';
 import BradEditingThumb from './images/BTSthumbs/BradEditing-thumb.png';
 import heyChiefThumb from './images/BTSthumbs/heyChiefGreenscreenWithJulie-thumb.png';
 import LibbyHelpingHandsGreenscreenThumb from './images/BTSthumbs/LibbyHelpingHandsGreenscreen-thumb.png';
@@ -45,6 +46,7 @@ import MiguelJulieGreenscreenThumb from './images/BTSthumbs/MiguelJulieGreenscre
 
 const imageRefs = {
   camp,
+  brand,
   title010,
   title025,
   title050,
@@ -64,9 +66,9 @@ const imageRefs = {
     { id: uuid(), original: ElDiaSheetMusic, thumbnail: ElDiaSheetMusicThumb, description: 'sheet music for a song heard frequently'}, 
     { id: uuid(), original: tangoSheetMusic, thumbnail: tangoSheetMusicThumb, description: 'more sheet music'}, 
     { id: uuid(), original: QTangoRecording, thumbnail: QTangoRecordingThumb, description: 'The whole Q Tango ensemble'}, 
-    { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty, where we recorded most of the voices'},
+    { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty Studios, where we recorded most of the voices'},
     { id: uuid(), original: RumiRecording, thumbnail: RumiRecordingThumb, description: 'Rumi recording as Laura'}, 
-    { id: uuid(), original: I25PondTurtles, thumbnail: I25PondTurtlesThumb, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
+    { id: uuid(), original: I25TurtleStaredown, thumbnail: I25TurtleStaredownThumb, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
     { id: uuid(), original: BradEditing, thumbnail: BradEditingThumb, description: 'Brad at work editing picture.'},
   ],
 }

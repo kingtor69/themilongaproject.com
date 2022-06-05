@@ -1,33 +1,25 @@
 
 import React from 'react';
 import Home from './Home';
-import NavBar from './NavBar';
 import About from './About';
 import Credits from './Credits';
 import BTS from './BTS';
 import Bios from './Bios';
 import Contact from './Contact';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import './Front.css';
 
 const Front = () => {
   return (
     <div className="Front">
-      <NavBar />
       <Container>
-        <Row>
-          <Col md="2"></Col>
-          <Col md="8">
-            <Home />
-            <About />
-            <Bios />
-            <Credits />
-            <BTS />
-            <Contact />
-          </Col>
-          <Col md="2"></Col>
-        </Row>
+          <Home />
+          <About />
+          <Bios />
+          <Credits />
+          <BTS />
+          <Contact />
       </Container>
     </div>
   )
