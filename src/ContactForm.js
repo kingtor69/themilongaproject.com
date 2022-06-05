@@ -45,6 +45,7 @@ const ContactForm = () => {
 
     return (
         <div className="ContactForm section block" id="ContactForm">
+            <h3>Send us a message:</h3>
             <form
                 action={EMAIL_SEND}
                 onSubmit={handleSend}
