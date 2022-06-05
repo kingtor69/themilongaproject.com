@@ -1,7 +1,7 @@
 # The Milonga Project
 ### An informational website about an illustrated audio play
 
-## This is a front-end React app started with Create React App with all other code written exclusively by Tor Kingdon
+## This is a front-end React app started with Create React App with all other code written exclusively by Tor Kingdon with the exception of contact form and newsletter signup form using code as noted
 to deploy for development: 
 ```
 git clone https://github.com/kingtor69/themilongaproject.com.git
