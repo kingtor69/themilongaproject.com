@@ -9,11 +9,15 @@ const ContactPage = () => {
         <Container>
             <br />
             <ContactForm />
+            <p className="text-danger bg-light p-0 m-0 border"><small>
+                note: we will not confirm your email address, <br />
+                but this is the only way we have to respond, <br />
+                so please double-check it
+            </small></p>
             <div className="section block my-3">
                 <h3>or...</h3>
-                <h5 className="h6">If you do the former, don't worry, you'll have another chance for the latter.</h5>
+                <SubscribeForm />
             </div>
-            <SubscribeForm />
         </Container>
     );
 };

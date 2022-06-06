@@ -14,7 +14,7 @@ const CHIMP_FORM = `
     <div id="mc_embed_signup">
     <form action="https://themilongaproject.us14.list-manage.com/subscribe/post?u=0a2dd844719ae44dd0c51c1ea&amp;id=deb85fb63f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
-        <h2>Sign up for our newsletter:</h2>
+        <h2>Sign up for our mailing list:</h2>
     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
     <div class="mc-field-group">
         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

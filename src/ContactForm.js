@@ -37,7 +37,7 @@ const ContactForm = () => {
                 <p>~ Julie, Kat, &amp; Tor</p>
                 <br />
                 <a href="/" className="btn btn-light px-5 border-dark">
-                    return to Milonga home page
+                    return to top
                 </a>
             </div>
         )
@@ -88,11 +88,6 @@ const ContactForm = () => {
                         send message
                     </button>
                 </div>
-                <p className="text-danger bg-light p-0 m-0 border"><small>
-                        note: we will not confirm your email address, <br />
-                        but this is the only way we have to respond, <br />
-                        so please double-check it
-                    </small></p>
             </form>
         </div>
     );

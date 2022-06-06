@@ -17,7 +17,12 @@ import imageRefs from './imageRefs';
 import './NavBar.css';
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen)
+  };
+  
   return (
     <Navbar 
       className="NavBar sticky-top"
@@ -33,8 +38,15 @@ const NavBar = () => {
           alt="Milonga" 
         />
       </NavbarBrand>
-      <Collapse isOpen={isOpen} navbar>
-        <Nav className="ml-auto" navbar>
+      <NavbarToggler onClick={handleToggle} />
+      <Collapse 
+        isOpen = {isOpen}
+        navbar
+      >
+        <Nav 
+          className="ml-auto" 
+          navbar
+        >
           <NavItem>
             <NavLink href="/#Process">The Process</NavLink>
           </NavItem>
