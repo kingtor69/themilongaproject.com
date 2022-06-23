@@ -1,8 +1,11 @@
 # The Milonga Project
-### An informational website about an illustrated audio play
+## An informational website about an illustrated audio play
+### Capstone II project for Tor Kingdon in Springboard's Career Track Software Engineering Boot Camp
 
-## This is a front-end React app started with Create React App with all other code written exclusively by Tor Kingdon with the exception of contact form and newsletter signup form using code as noted
-to deploy for development: 
+## FRONT END
+The front end was started with Create React App with all other code written exclusively by Tor Kingdon with the exception of packages (see `package.json`), contact form and newsletter signup form which both use code as noted.
+
+### to deploy for development: 
 ```
 git clone https://github.com/kingtor69/themilongaproject.com.git
 cd themilongaproject.com
@@ -10,8 +13,11 @@ npm install
 npm start
 ```
 
-### The site will be visible at `https://themilongaproject.com` when it gets closer to done
+### The site is currently being developed on a separate track from the deployed version, which is at `https://themilongaproject.com`.
+The site will be put into continuous development and deployment as it gets further along.
 
-### intended future development
- -   use iFrame for embedding vimeo since none of the npm packages I've tried seem to reliably do everything I want: https://www.google.com/search?q=how+to+use+iframe+in+react&rlz=1C5CHFA_enUS998US998&oq=how+to+use+&aqs=chrome.2.69i57j0i67j35i39j0i512j0i67l2j0i512l4.3514j0j7&sourceid=chrome&ie=UTF-8
+### intended future development on the front end
  -   a music playlist available to play from navbar
+
+## BACK END
+A blog component will be added with a CMS to be written by Tor Kingdon using 3rd part comment management. There will be at least 3 registered users who can post news stories to the site with the CMS. 
