@@ -8,7 +8,7 @@ The front end was started with Create React App with all other code written excl
 ### to deploy for development: 
 ```
 git clone https://github.com/kingtor69/themilongaproject.com.git
-cd themilongaproject.com
+cd themilongaproject.com/themilongaproject-front
 npm install
 npm start
 ```
