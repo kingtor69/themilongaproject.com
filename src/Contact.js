@@ -6,7 +6,7 @@ import SubscribeForm from './SubscribeForm';
 const Contact = () => {
     return (
         <div className="Contact" id="Contact">
-            {/* <a className="section-header" href="/contact">Click To Request More Information</a> */}
+            <p className="pre-header"><br /></p>
             <h2 className="section-header">Contact Us</h2>
             <ContactForm />
             <br />

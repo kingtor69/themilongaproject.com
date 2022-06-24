@@ -37,3 +37,7 @@
 .text {
     text-align: left;
 }
+
+.pre-header {
+    font-size: 2rem;
+}
