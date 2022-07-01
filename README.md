@@ -8,7 +8,7 @@ The front end was started with Create React App with all other code written excl
 ### to deploy for development: 
 ```
 git clone https://github.com/kingtor69/themilongaproject.com.git
-cd themilongaproject.com/themilongaproject-front
+cd themilongaproject.com/frontend
 npm install
 npm start
 ```
@@ -20,4 +20,15 @@ The site will be put into continuous development and deployment as it gets furth
  -   a music playlist available to play from navbar
 
 ## BACK END
-A blog component will be added with a CMS to be written by Tor Kingdon using 3rd part comment management. There will be at least 3 registered users who can post news stories to the site with the CMS. 
+
+### to deploy for development:
+```
+git clone https://github.com/kingtor69/themilongaproject.com.git
+cd themilongaproject.com/backend
+npm install
+npm run develop
+```
+
+### libraries used:
+ - CMS built by Tor Kingdon using the Strapi library. `https://strap.io` (license: `https://github.com/strapi/strapi/blob/master/LICENSE`).
+ - Comment management by Tor Kingdon using [TBD].
