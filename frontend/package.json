@@ -1,5 +1,5 @@
 {
-  "name": "themilongaproject.com",
+  "name": "themilongaproject-front",
   "version": "0.1.0",
   "homepage": "https://themilongaproject.com",
   "private": true,
@@ -20,9 +20,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD:package.json
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "postbuild": "rm -rf ../themilongaproject.com && mv ./build ../themilongaproject.com",
+=======
+>>>>>>> cb78cec5849c5e7c4b4583a4e0282f572dc9808f:themilongaproject-front/package.json
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
