@@ -1,6 +1,6 @@
 # The Milonga Project
-## An informational website about an illustrated audio play
-### Capstone II project for Tor Kingdon in Springboard's Career Track Software Engineering Boot Camp
+An informational website about an illustrated audio play. 
+Capstone II project for Tor Kingdon in Springboard's Career Track Software Engineering Boot Camp.  
 
 ## FRONT END
 The front end was started with Create React App with all other code written exclusively by Tor Kingdon with the exception of packages (see `package.json`), contact form and newsletter signup form which both use code as noted.
