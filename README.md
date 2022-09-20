@@ -1,4 +1,4 @@
-# The Milonga Project
+# The Milonga Story
 An informational website about an illustrated audio play. 
 Capstone II project for Tor Kingdon in Springboard's Career Track Software Engineering Boot Camp.  
 
