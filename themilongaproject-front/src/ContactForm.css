@@ -1,0 +1,10 @@
+
+.ContactForm-input-div {
+    margin-bottom: 1em;
+    padding: 10px;
+    display: inline-block;
+};
+
+.ContactForm-input-textarea {
+    display: block;
+};
