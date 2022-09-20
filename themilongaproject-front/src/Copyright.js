@@ -10,7 +10,9 @@ const Copyright = () => {
         <div className="Copyright block">
             <img src={ hearBettyLogo } alt="" className="Copyright-logo" />
             <p className="Copyright-text">
-                &copy; copyright 2022 Hear Betty Studios
+                &copy; copyright 2022 Hear Betty Studios<br />
+                website by Tor Kingdon 
+                {/* <a href="https://kingtorcodes.com">kingtorcodes.com</a> */}
             </p>
         </div>
     );

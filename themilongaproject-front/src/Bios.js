@@ -10,7 +10,7 @@ const Bios = () => {
     return (
         <div className="Bios" id="Bios">
             <p className="pre-header"><br /></p>
-            <h2 className="section-header">About the Creators</h2>
+            <h2 className="section-header">Process the Creators</h2>
             <div className="block">
                 <Container>
                     <h3><b>JULIE REICHERT</b> <i className="Bios-position">Writer / Director / Producer</i></h3>

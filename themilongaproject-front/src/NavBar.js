@@ -55,7 +55,7 @@ const NavBar = () => {
             <NavLink href="/#Process">The Process</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#Bios">About the Creators</NavLink>
+            <NavLink href="/#Bios">Process the Creators</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/#Credits">Credits</NavLink>

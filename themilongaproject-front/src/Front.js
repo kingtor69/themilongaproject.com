@@ -1,7 +1,9 @@
 
 import React from 'react';
 import Home from './Home';
-import About from './About';
+import Trailer from './Trailer';
+import Story from './Story';
+import Process from './Process';
 import Credits from './Credits';
 import BTS from './BTS';
 import Bios from './Bios';
@@ -15,7 +17,9 @@ const Front = () => {
     <div className="Front">
       <Container>
           <Home />
-          <About />
+          <Trailer />
+          <Story />
+          <Process />
           <Bios />
           <Credits />
           <BTS />

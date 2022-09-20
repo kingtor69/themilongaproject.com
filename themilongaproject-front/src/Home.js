@@ -1,7 +1,6 @@
 import React from 'react';
-// import About from './About';
 import imageRefs from './imageRefs';
-import {Card, CardImg, CardBody, CardTitle, CardSubtitle} from 'reactstrap';
+import {Card, CardImg, CardBody, CardSubtitle} from 'reactstrap';
 
 import './Home.css';
 
@@ -11,12 +10,9 @@ function Home() {
       <CardImg
         className="Home-img-h1"
         alt="Milonga"
-        src={imageRefs.title010Grad10}
+        src={ imageRefs.poster }
         />
       <CardBody>
-        <CardTitle tag="h2" className="h2">
-          An Illustrated Audio Play
-        </CardTitle>
         <CardSubtitle>
           <i>A homeless woman with a guilty past heals herself through tango.</i>
         </CardSubtitle>

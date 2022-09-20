@@ -2,6 +2,7 @@ import { v4 as uuid } from 'uuid';
 
 import camp from './images/4A FIN.jpg';
 import brand from './images/Milonga003.png'
+import poster from './images/poster.jpg'
 import title010 from './images/Milonga010.png';
 import title025 from './images/Milonga025.png';
 import title050 from './images/Milonga050.png';
@@ -46,6 +47,7 @@ import MiguelJulieGreenscreenThumb from './images/BTSthumbs/MiguelJulieGreenscre
 const imageRefs = {
   camp,
   brand,
+  poster,
   title010,
   title025,
   title050,
