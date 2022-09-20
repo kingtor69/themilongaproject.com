@@ -5,10 +5,10 @@ import imageRefs from './imageRefs';
 import './Copyright.css';
 
 const Copyright = () => {
-    const {hearBettyLogo} = imageRefs;
+    const { hearBettyLogo } = imageRefs;
     return (
         <div className="Copyright block">
-            <img src={hearBettyLogo} className="Copyright-logo" />
+            <img src={ hearBettyLogo } alt="" className="Copyright-logo" />
             <p className="Copyright-text">
                 &copy; copyright 2022 Hear Betty Studios
             </p>

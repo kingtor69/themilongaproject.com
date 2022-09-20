@@ -1,6 +1,7 @@
 
 import React from 'react';
-import {Container, Row, Col } from 'reactstrap'; 
+import { Container } from 'reactstrap'; 
+// import { Row, Col } from 'reactstrap'; 
 
 import './Bios.css';
 import './Front.css';
