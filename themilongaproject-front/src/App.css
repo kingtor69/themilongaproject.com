@@ -1,0 +1,12 @@
+
+body {
+  background-color: transparent;
+  background-image: url('./images/4A FIN.jpg');
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  padding-top: 45px;
+}
+
+.App {
+  text-align: center;
+}

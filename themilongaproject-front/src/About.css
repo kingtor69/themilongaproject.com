@@ -1,0 +1,10 @@
+.About-p-list-intro {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.About-unmarked-list {
+  padding-top: 0px;
+  margin-top: 0.5rem;
+  list-style: none;
+}
