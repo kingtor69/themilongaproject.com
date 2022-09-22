@@ -3,7 +3,7 @@ import './Process.css';
 
 function Story() {
   return (
-    <div className="Story">
+    <div className="Story" id="Story">
         <p className="pre-header"><br /></p>
         <h2 className="section-header">The Story</h2>
         <div className="block text">

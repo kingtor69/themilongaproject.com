@@ -52,10 +52,16 @@ const NavBar = () => {
           navbar
         >
           <NavItem>
+            <NavLink href="/#Trailer">Watch the Trailer</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#Story">The Story</NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href="/#Process">The Process</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#Bios">Process the Creators</NavLink>
+            <NavLink href="/#Bios">About the Creators</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/#Credits">Credits</NavLink>
