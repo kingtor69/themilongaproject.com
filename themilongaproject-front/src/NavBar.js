@@ -55,11 +55,14 @@ const NavBar = () => {
             <NavLink href="/#Trailer">Watch the Trailer</NavLink>
           </NavItem>
           <NavItem>
+            <NavLink href="/#About">About the Project</NavLink>
+          </NavItem>
+          {/* <NavItem>
             <NavLink href="/#Story">The Story</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/#Process">The Process</NavLink>
-          </NavItem>
+          </NavItem> */}
           <NavItem>
             <NavLink href="/#Bios">About the Creators</NavLink>
           </NavItem>

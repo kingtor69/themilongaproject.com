@@ -23,10 +23,11 @@ import I25TurtleStaredown from './images/BTSoriginals/I25TurtleStaredown.png';
 import BradEditing from './images/BTSoriginals/BradEditing.png';
 import heyChief from './images/BTSoriginals/heyChiefGreenscreenWithJulie.png';
 import LibbyHelpingHandsGreenscreen from './images/BTSoriginals/LibbyHelpingHandsGreenscreen.png';
-// import JulieSlate105 from './images/BTSoriginals/JulieSlate105.png';
 import CodyJulieBottleCatGreenscreen from './images/BTSoriginals/CodyJulieBottleCatGreenscreen.png';
 import friendSlateLibbyWaiting from './images/BTSoriginals/friendSlateLibbyWaiting.png';
 import MiguelJulieGreenscreen from './images/BTSoriginals/MiguelJulieGreenscreen.png'
+import ZoomEditingWithJulieAndDeimos from './images/BTSoriginals/ZoomEditingWithJulieAndDeimos.png'
+import JoeyOnMixStageMonitor from './images/BTSoriginals/JoeyOnMixStageMonitor.png'
 
 import HearKittyADREmptyThumb from './images/BTSthumbs/HearKittyADREmpty-thumb.png';
 import ErskineBandoThumb from './images/BTSthumbs/ErskineBando-thumb.png';
@@ -39,10 +40,11 @@ import I25TurtleStaredownThumb from './images/BTSthumbs/I25TurtleStaredown-thumb
 import BradEditingThumb from './images/BTSthumbs/BradEditing-thumb.png';
 import heyChiefThumb from './images/BTSthumbs/heyChiefGreenscreenWithJulie-thumb.png';
 import LibbyHelpingHandsGreenscreenThumb from './images/BTSthumbs/LibbyHelpingHandsGreenscreen-thumb.png';
-// import JulieSlate105 from './images/BTSthumbs/JulieSlate105-thumb.png';
 import CodyJulieBottleCatGreenscreenThumb from './images/BTSthumbs/CodyJulieBottleCatGreenscreen-thumb.png';
 import friendSlateLibbyWaitingThumb from './images/BTSthumbs/friendSlateLibbyWaiting-thumb.png';
 import MiguelJulieGreenscreenThumb from './images/BTSthumbs/MiguelJulieGreenscreen-thumb.png'
+import ZoomEditingWithJulieAndDeimosThumb from './images/BTSthumbs/ZoomEditingWithJulieAndDeimos-thumb.png'
+import JoeyOnMixStageMonitorThumb from './images/BTSthumbs/JoeyOnMixStageMonitor-thumb.png'
 
 const imageRefs = {
   camp,
@@ -70,7 +72,9 @@ const imageRefs = {
     { id: uuid(), original: HearKittyADREmpty, thumbnail: HearKittyADREmptyThumb, description: 'Hear Kitty Studios, where we recorded most of the voices'},
     { id: uuid(), original: RumiRecording, thumbnail: RumiRecordingThumb, description: 'Rumi recording as Laura'}, 
     { id: uuid(), original: I25TurtleStaredown, thumbnail: I25TurtleStaredownThumb, description: 'Waiting for recording at Hear Kitty can be quite relaxing'}, 
+    {id: uuid(), original: ZoomEditingWithJulieAndDeimos, thumbnail: ZoomEditingWithJulieAndDeimosThumb, description: 'Most of the audio edit happened during COVID via Zoom'},
     { id: uuid(), original: BradEditing, thumbnail: BradEditingThumb, description: 'Brad at work editing picture.'},
+    { id: uuid(), original: JoeyOnMixStageMonitor, thumbnail: JoeyOnMixStageMonitorThumb, description: "Joey’s obituary as seen during the final mix on Hear Kitty’s film mix stage"}
   ],
 }
 
