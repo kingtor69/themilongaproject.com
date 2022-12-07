@@ -3,7 +3,6 @@ import React from 'react';
 import Home from './Home';
 import Trailer from './Trailer';
 import About from './About';
-import Process from './Process';
 import Credits from './Credits';
 import BTS from './BTS';
 import Bios from './Bios';
@@ -19,7 +18,6 @@ const Front = () => {
           <Home />
           <Trailer />
           <About />
-          <Process />
           <Bios />
           <Credits />
           <BTS />
