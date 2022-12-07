@@ -63,11 +63,10 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "author": {
+    "posts": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::author.author",
-      "inversedBy": "user"
+      "relation": "oneToMany",
+      "target": "api::post.post"
     }
   }
 }

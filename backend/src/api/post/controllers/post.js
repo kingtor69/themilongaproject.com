@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- *  post controller
+ * post controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;

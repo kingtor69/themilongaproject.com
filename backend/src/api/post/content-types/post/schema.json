@@ -15,14 +15,8 @@
     "title": {
       "type": "string"
     },
-    "post": {
+    "content": {
       "type": "richtext"
-    },
-    "creation_datetime": {
-      "type": "datetime"
-    },
-    "modification_datetime": {
-      "type": "datetime"
     },
     "media": {
       "type": "media",
@@ -35,32 +29,17 @@
         "audios"
       ]
     },
-    "preview_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "date_posted": {
+      "type": "datetime"
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "posts"
-    },
-    "tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tag.tag",
-      "inversedBy": "posts"
-    },
-    "permalink": {
+    "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
     }
   }
 }
